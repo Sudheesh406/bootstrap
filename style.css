@@ -72,6 +72,48 @@ value{
     border-radius: 15px;
 }
 
+/* WebKit (Chrome, Safari) */
+#customRange1::-webkit-slider-thumb {
+    background:  #4318FF;
+}
+/* Firefox */
+#customRange1::-moz-range-thumb {
+    background:  #4318FF;
+}
+/* Internet Explorer and Edge */
+#customRange1::-ms-thumb {
+    background:#4318FF;
+}
+/* WebKit (Chrome, Safari) */
+#customRange2::-webkit-slider-thumb {
+    background:  #4318FF;
+}
+/* Firefox */
+#customRange2::-moz-range-thumb {
+    background:  #4318FF;
+}
+/* Internet Explorer and Edge */
+#customRange2::-ms-thumb {
+    background:#4318FF;
+}
+input[type="radio"]:checked, 
+input[type="checkbox"]:checked {
+    color: #4318FF !important;
+}        
+
+select:focus{
+    box-shadow: none !important;
+    border:1px solid #4318FF !important;
+}
+input:focus{
+    box-shadow: none !important;
+    border:1px solid #4318FF !important;
+}
+textarea:focus{
+    box-shadow: none !important;
+    border:1px solid #4318FF !important;
+}
+
 @media only screen and (max-width:1000px){
     .med-size{
         display: grid;
